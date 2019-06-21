@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "start-over:build"
+            "browserTarget": "start-over:build",
+            "port": 3000
           },
           "configurations": {
             "production": {
